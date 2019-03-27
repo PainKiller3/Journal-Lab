@@ -1,9 +1,13 @@
-<?php
-$t = date("H");
+// Write  a program to illustrate if else statement
 
-if ($t < "20") {
-    echo "Have a good day!";
-} else {
-    echo "Have a good night!";
+<?php
+$a = 50;
+$b = 10;
+if($a > $b)
+{
+  echo "$a is Greater than $b";
+}
+else {
+    echo "$a is Greater than $b";
 }
 ?>

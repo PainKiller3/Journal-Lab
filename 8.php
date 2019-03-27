@@ -1,9 +1,10 @@
+// Write  a program to illustrate do while loop
+
 <?php
 $i = 1; 
 do
  {
-    echo $i;
+    echo "The Number is: $i <br>";
     $i++;
-} 
-while($i < 6);
+} while($i < 6);
 ?>

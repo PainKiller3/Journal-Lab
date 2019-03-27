@@ -1,15 +1,18 @@
+// Write  a program to illustrate if else statement
+
+
 <?php
-$day = date("D");
-if ($day == "Mon"){
-	echo "Mr. Monu will go to Lord Shiv temple first.";
+$per=80;
+if ($per>=90){
+	echo "First Class";
 	}
-	elseif ($day == "Tue"){
-	echo "Mr. Monu will go to Lord Hanuman temple first.";
+	elseif ($per>=75&& $per<=89){
+	echo "Second Class";
 	}
-	elseif ($day == "Sat"){
-	echo "Mr. Monu will go to Lord Shai temple first.";
+	elseif ($per>=40 &&$per<=74){
+	echo "Pass";
 	}
 	else{
-	echo "Mr. Monu will go to office, not to temple.";
+	echo "Fail";
 	}
 ?>
