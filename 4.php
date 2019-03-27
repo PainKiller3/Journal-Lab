@@ -1,6 +1,3 @@
-// Write  a program to illustrate if else statement
-
-
 <?php
 $per=80;
 if ($per>=90){

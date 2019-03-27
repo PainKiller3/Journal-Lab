@@ -1,6 +1,3 @@
-// Write  a program to illustrate if statement
-
-
 <?php
 $a = 50;
 $b = 10;

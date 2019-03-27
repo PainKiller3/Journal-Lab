@@ -1,5 +1,5 @@
 <?php
-$opt=5;
+$opt=1;
 switch ($opt) {
 	case 1:
 		echo "one";

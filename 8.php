@@ -1,5 +1,3 @@
-// Write  a program to illustrate do while loop
-
 <?php
 $i = 1; 
 do

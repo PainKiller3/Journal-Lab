@@ -1,5 +1,3 @@
-// Write  a program to illustrate if else statement
-
 <?php
 $a = 50;
 $b = 10;

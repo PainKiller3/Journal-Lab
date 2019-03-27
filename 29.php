@@ -1,3 +1,3 @@
 <?php
-echo $_GET ['city'] . "is selected";
+echo $_GET ['city'] . " is selected";
 ?>
