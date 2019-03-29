@@ -1,7 +1,5 @@
 <?php
-$file=fopen("reitest.txt","a");
-fwrite($file,"Hello");
-fwrite($file,"Reignz");
-echo readfile("reitest.txt")."<br>";
-fclose($file);
+$file1=fopen("test2.txt","a");
+fwrite($file1,"Reignz");
+fclose($file1);
 ?>

@@ -1,8 +1,7 @@
 <?php
-function add($x,$y)
+function ccat($fst,$sec)
 {
-$z=$x+$y;
-return $z;
+return $fst." ".$sec;
 }
-echo "sum: 156+183= ".add(156,183);
+echo ccat("Welcome", "Reignz");
 ?>

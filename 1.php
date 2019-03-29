@@ -1,6 +1,6 @@
 <?php
-$x=10;
-$y=3;
+$x=20;
+$y=6;
 echo "Addition=".($x+$y)."<BR>";
 echo "Subtraction=".($x-$y)."<BR>";
 echo "Multiplication=".($x*$y)."<BR>";

@@ -1,10 +1,8 @@
 <?php
-$num=array(8,9,6,4,7);
+$num=array(8,9,6,4,7,1,2);
 rsort($num);
-$length=count($num);
-for($x=0;$x<$length;$x++)
+foreach($num as $x)
 {
-echo "$num[$x]";
-echo "<br>";
+	echo $x."<br>";
 }
 ?>

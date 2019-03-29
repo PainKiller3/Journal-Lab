@@ -1,4 +1,4 @@
 <?php
-$str=$_GET['textm'];
-echo "Welcome ".$str;
+$x=$_GET['txt'];
+echo "Welcome ".$x;
 ?>

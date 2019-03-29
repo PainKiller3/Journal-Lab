@@ -1,20 +1,27 @@
+<html>
+<body>
+<form method ="GET"  action ="32.php">
+Roll No:
+<input type="text" name="rno"> <br>
+Name:
+<input type="text" name="name"> <br>
+<input type="submit" value=INSERT>
+</form> <hr>
 <?php
-$server="localhost";
-$user="root";
-$pwd="";
-$x=$_GET['rno'];
-$y=$_GET['name'];
-$con=mysql_connect($server,$user,$pwd);
-if(is_resource($con))
+$roll=$_GET['rno'];
+$name=$_GET['name'];
+$con=mysqli_connect('localhost','blitz','reignz','student');
+if($con)
 {
-mysql_select_db('sample_bca');
-$sql1="insert into student values(‘$x’,’$y’)";
-mysql_query($sql1,$con);
-echo "records inserted";
-mysql_close($con);
+$squery="insert into stdnt(roll, name) values($roll,'$name')";
+mysqli_query($con,$squery);
+echo "Record Inserted";
 }
 else
 {
-echo "error".mysql_error();
+echo "Connection to Database Failed";
 }
+mysqli_close($con);
 ?>
+</body>
+</html>

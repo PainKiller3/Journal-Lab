@@ -1,18 +1,14 @@
 <?php
-$server="localhost";
-$user="root";
-$pwd="";
-$con=mysql_connect($server,$user,$pwd);
-if(is_resource($con))
+$con=mysqli_connect('localhost','blitz','reignz','student');
+if($con)
 {
-mysql_select_db('sample_bca');
-$sql1="delete from student26 where Rno='101' and Name='ABC'";
-mysql_query($sql1,$con);
-echo "records deleted";
-mysql_close($con);
+$squery="delete from stdnt where roll='31' and name='Ninad'";
+mysqli_query($con,$squery);
+echo "Record Deleted";
 }
 else
 {
-echo "error".mysql_error();
+echo "Connection failed";
 }
+mysqli_close($con);
 ?>

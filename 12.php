@@ -1,17 +1,17 @@
 <?php
-$opt=1;
-switch ($opt) {
+$option=3;
+switch ($option) {
 	case 1:
-		echo "one";
+		echo "First";
 		break;
 	case 2:
-		echo "two";
+		echo "Second";
 		break;
 	case 3:
-		echo "three";
+		echo "Third";
 		break;
 	default:
-		echo "Invalid Option";
+		echo "Wrong Choice";
 		break;
 }
 ?>

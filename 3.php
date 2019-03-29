@@ -1,11 +1,11 @@
 <?php
-$a = 50;
-$b = 10;
-if($a > $b)
+$a = TRUE;
+if($a==TRUE)
 {
-  echo "$a is Greater than $b";
+  echo "Statement is TRUE";
 }
-else {
-    echo "$a is Greater than $b";
+else 
+{
+    echo "Statement is FALSE";
 }
 ?>

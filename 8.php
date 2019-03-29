@@ -2,7 +2,7 @@
 $i = 1; 
 do
  {
-    echo "The Number is: $i <br>";
+    echo "$i <br>";
     $i++;
-} while($i < 6);
+} while($i <= 10 );
 ?>

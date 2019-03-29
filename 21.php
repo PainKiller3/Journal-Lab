@@ -1,5 +1,5 @@
 <?php
-$age=array("Reignz"=>"20", "Hkr"=>"25", "Blitz"=>"26");
+$age=array("Arindam"=>"22", "XsploIT"=>"21", "Mehul"=>"18");
 asort($age);
 foreach($age as $x=>$x_value)
 {

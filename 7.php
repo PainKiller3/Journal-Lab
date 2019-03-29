@@ -1,8 +1,8 @@
 <?php
 $i = 1; 
-while($i < 6) 
+while($i <= 10) 
 {
-  echo "The Number is: $i<br>";
+  echo "$i<br>";
   $i++;
 }
 ?>

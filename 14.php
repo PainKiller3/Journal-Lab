@@ -1,7 +1,7 @@
 <?php
-function writemsg($xyz)
+function np($msg)
 {
-echo "HEllo $xyz";
+echo "Welcome $msg";
 }
-writemsg("REIGNZ");
+np("Reignz");
 ?>

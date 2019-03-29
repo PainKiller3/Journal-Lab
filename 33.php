@@ -1,20 +1,28 @@
+<html>
+<body>
+<form method ="GET"  action ="33.php">
+Roll No:
+<input type="text" name="rno"> <br>
+Name:
+<input type="text" name="name"> <br>
+<input type="submit"  value="UPDATE">
+</form><hr>
 <?php
-$server="localhost";
-$user="root";
-$pwd="";
-$con=mysql_connect($server,$user,$pwd);
-if(is_resource($con))
+$con=mysqli_connect('localhost','blitz','reignz','student');
+if(isset($_GET['rno']))
 {
-$x=$_GET['rno'];
-$y=$_GET['name'];
-mysql_select_db('sample_bca');
-$sql1="delete from student26 where Rno='$x' and Name='$y'";
-mysql_query($sql1,$con);
-echo "records deleted";
-mysql_close($con);
+if($con)
+{
+$roll=@$_GET['rno'];
+$name=@$_GET['name'];
+$squery="update stdnt SET name='$name' where roll=$roll";
+mysqli_query($con,$squery);
+echo "Record Updated";
 }
 else
 {
-echo "error".mysql_error();
-}
+echo "Connection Failed";
+}}
 ?>
+</body>
+</html>

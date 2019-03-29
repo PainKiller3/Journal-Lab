@@ -1,9 +1,8 @@
 <?php
-$age=array("Reignz"=>"20", "Hkr"=>"25", "Blitz"=>"26");
-asort($age);
-foreach($age as $x=>$x_value)
+$age=array("Mehul"=>"20", "Vishal"=>"25", "Arindam"=>"26");
+foreach($age as $x=>$xval)
 {
-echo "Key=".$x."  Value=".$x_value;
+echo "Key=".$x.", Value=".$xval;
 echo "<br>";
 }
 ?>

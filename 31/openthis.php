@@ -1,5 +1,5 @@
 <?php
-	$con=mysqli_connect('localhost','root','bvi123','userinf')
+	$con=mysqli_connect('localhost','blitz','reignz','userinf')
 	or die("Connection Failed!");
 	$sql="select * from usrinf";
 	$res=mysqli_query($con,$sql);

@@ -1,8 +1,8 @@
 <?php
-function writemsg($xyz="BLITZ")
+function np($msg="Reignz")
 {
-echo "HEllo $xyz <br>";
+echo "Welcome $msg <br>";
 }
-writemsg();
-writemsg("REIGNZ");
+np();
+np("Reignz/Blitz");
 ?>

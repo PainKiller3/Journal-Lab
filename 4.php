@@ -1,15 +1,16 @@
 <?php
-$per=80;
-if ($per>=90){
-	echo "First Class";
-	}
-	elseif ($per>=75&& $per<=89){
-	echo "Second Class";
-	}
-	elseif ($per>=40 &&$per<=74){
-	echo "Pass";
-	}
-	else{
-	echo "Fail";
-	}
+$a=60;
+$b=60;
+if ($a>$b)
+{
+	echo "$a is greater";
+}
+else if($b>$a)
+{
+	echo "$b is greater";
+}
+else
+{
+	echo "$a is equal to $b";
+}
 ?>
