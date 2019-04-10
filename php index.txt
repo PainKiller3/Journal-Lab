@@ -1,0 +1,117 @@
+1	Write a program to perform addition, subtraction, multiplication, division, modulo.		
+
+2	Write a program to illustrate If statement.		
+
+3	Write a program to illustrate If else statement.		
+
+4	Write a program to illustrate Nested if else.		
+
+5	Write a program to check if the number is even or odd.		
+
+6	Write a program to check maximum between 2 numbers.		
+
+7	Write a program to illustrate while loop.		
+
+8	Write a program to illustrate do while loop.		
+
+9	Write a program to print numbers from 1-10 using while loop.		
+
+10	Write a program to print numbers from 1-10 using for loop.		
+
+11	Write a program to print multiplication table of given number.		
+
+12	Write a program to implement switch case.		
+
+13	Write a program to implement functions.		
+
+14	Write a program to implement functions with arguments.		
+
+15	Write a program to implement default arguments.		
+
+16	Write a program to implement functions with return type		
+
+17	Write a program to implement associative arrays.		
+
+18	Write a program to sort an array.		
+
+19	Write a program to sort integers in ascending order.		
+
+20	Write a program to sort integers in descending order.		
+
+21	Write a program to sort an associative array in ascending order based on value.		
+
+22	Write a program to accept name:
+Enter Name:	
+Submit	
+
+23	Write a program to accept 2 numbers and print the addition:
+Number 1:	
+Number 2:	
+Add
+		
+24	Write a program to accept a number and print its multiplication table inside an html table:
+Enter no:	
+Submit
+ 		
+25	Write a program to check maximum between 2 numbers using a form:
+Enter Number 1:	
+Enter Number 2:	
+Print maximum
+ 		
+26	Write a program to accept Username and Password using a form:
+Username:	
+Password:	
+Login
+ 		
+27	Write a program to create a form containing multiple checkboxes and the data is submitted to php:
+o	HDD
+o	RAM
+Submit
+ 		
+28	Write a program to create a form containing multiple radio buttons and the data is submitted to php:
+o	 Male
+o	Female
+Submit
+ 		
+29	Write a program to create a form containing dropdown menu and the data is submitted to php:
+Select city:	
+Login
+ 		
+30	Write a program to insert records into database:
+Emp no:		
+Name:		
+Gender:
+o	Male
+o	Female
+Languages Known:
+o	Hindi
+o	English
+o	Marathi
+City: 
+Submit
+ 		
+31	Write a program to create table containing records such as name and roll number which can be edited or deleted.
+Rno	Name	Action
+1	abc	edit	delete
+2	pqr	edit	delete
+3	xyz	edit	delete
+ 		
+32	Write a program to insert records into database:
+Roll no	
+Name	
+Insert
+ 		
+33	Write a program to update records into database:
+Roll no	
+Name	
+Update
+ 		
+34	Write a program to delete records of database		
+
+35	Write a program to illustrate cookies.		
+
+36	Write a program to read contents from a text file.		
+
+37	Write a program to append contents from a text file.		
+
+38	Write a program to perform operation on session.		
